@@ -48,8 +48,8 @@ public class ShopManager {
         // Items consumibles
         shopItems.add(new ShopItem(Material.APPLE, 1, 10, "§cManzana"));
         shopItems.add(new ShopItem(Material.GOLDEN_APPLE, 1, 100, "§6Manzana Dorada"));
-        shopItems.add(new ShopItem(Material.HEALING_POTION, 1, 50, "§dPoción de Curación"));
-        shopItems.add(new ShopItem(Material.MANA_POTION, 1, 50, "§9Poción de Maná"));
+        shopItems.add(new ShopItem(Material.POTION, 1, 50, "§dPoción de Curación"));
+        shopItems.add(new ShopItem(Material.PAPER, 1, 50, "§9Pergamino de Maná"));
         
         // Bloques
         shopItems.add(new ShopItem(Material.OAK_LOG, 64, 20, "§8Tronco de Roble"));
