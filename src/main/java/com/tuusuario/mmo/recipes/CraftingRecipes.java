@@ -37,7 +37,7 @@ public class CraftingRecipes {
         // Poción de Curación
         ShapedRecipe healingPotionRecipe = new ShapedRecipe(
                 new NamespacedKey(plugin, "healing_potion"),
-                new ItemStack(Material.HEALING_POTION, 1)
+                new ItemStack(Material.POTION, 1)
         );
         
         healingPotionRecipe.shape(
