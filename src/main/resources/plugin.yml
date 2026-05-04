@@ -1,0 +1,27 @@
+name: EldenCraft
+version: 2.3
+main: com.tuusuario.mmo.EldenCraft
+description: Plugin MMO con razas, clases, niveles, habilidades, misiones, economia, tienda, partys y armaduras RPG.
+authors:
+  - TuUsuario
+
+commands:
+  class:
+    description: "Cambiar tu clase"
+    usage: "/class [nombre]"
+    aliases: [classs]
+  
+  race:
+    description: "Cambiar tu raza"
+    usage: "/race [nombre]"
+    aliases: [raza]
+  
+  skills:
+    description: "Ver tus habilidades y pasiva"
+    usage: "/skills"
+    aliases: [habilidades, abilities]
+  
+  shop:
+    description: "Abrir la tienda"
+    usage: "/shop"
+    aliases: [tienda, comprar]
